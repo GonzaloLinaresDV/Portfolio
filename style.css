@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+body{
+    background-color: rgb(112, 106, 97) ;    
+}
+
+header{
+    background-color:#1D1A15 ;
+    border-radius: 14px;   
+}
+
+header img{
+    size: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+section{
+    padding-top: 11px;
+    border-bottom:5px dashed black ;
+}
+
+footer{
+    background: #1D1A15;
+}
+#MyBookmarks{
+    list-style: none;
+    margin-left: 72%;
+    display: flex;
+}
+#MyBookmarks li{
+    margin-right: 20px;
+}
+#MyBookmarks li a{
+    text-decoration: none;
+    color: #67768D;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Bitter', serif;    
+}
+#introduction{
+    display: flex;
+    vertical-align: top;
+}
+#introduction img{
+    width: 25%;
+    border: 4px solid black;
+    margin-bottom: 15px;
+}
+#introduction div p{
+    
+    margin-left: 5px;
+    display: block;
+    font-size: large;
+    font-family: 'Bitter', serif;
+    color: #15181D;
+}
+#HighlightedProjects{
+    display: block;
+}
+h2{
+    text-align: center;
+    display: block;
+    font-size: 45px;
+    font-family: 'Bitter', serif;
+}
+
+#projects{
+    display: flex;
+}
+#projects h2{
+    align-items: flex-start;
+}
+
+#projects div{
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    margin-top: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+#projects div{
+    background-color: #E1DCD5;
+    border: 4px  solid rgb(133, 99, 49);
+    text-align: center;
+    display: block;
+    width: 33.3333%;
+}
+#projects div{
+    width: 33%;
+}
+#projects div img{
+    width: 100%;
+}
+p{
+    color:#67768D ;
+}
+#Dummy img{
+    text-align: center;
+}
+#Dummy p {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+}
+#SomethingWatching{
+    border: 4px  solid greenyellow;
+    display: block;
+}
+#SomethingWatching img{
+    width: 100%;
+    text-align: center;
+}
+.MyResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+ 
+}
+.mycontacts{
+    text-align: center;
+}
+.mycontacts div ul li{
+    border: 4px  solid rgb(133, 99, 49);  
+    border-radius: 360px;
+    display: block; 
+    background-color: #bdb5aa; 
+    margin-bottom: 25px;
+}
+.mycontacts div a{
+    text-decoration: none;    
+    color: #15181D;
+    font-family: "Oxygen Mono", monospace;
+    font-size: 25px;
+    text-align: center;
+}
+.myScreenShots ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.myScreenShots ul li img{
+    width: 23%;
+    border: 2px  solid rgb(133, 99, 49);
+   margin: 0 5px 15px 5px;
+}
+.myScreenShots h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.myScreenShots div{
+    margin-top: 15px;
+    border: 5px solid black;
+    background-color: #bdb5aa;
+    margin-bottom: 15px;
+}
+
+#rights{
+    text-align:center;  
+    color: rgb(155, 154, 154);  
+}
+#socialmedia li{
+    display: block;
+    text-align: center
+}
+#socialmedia a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Bitter', serif;    
+    font-size: 20px;
+}
+#socialmedia img{
+    width: 15px;
+}
+
+
+#carouselExampleCaptions{
+    border: 5px solid rgb(56, 56, 56);
+    width: 75%;
+    height: 75%; 
+    margin: auto; 
+    
+}
