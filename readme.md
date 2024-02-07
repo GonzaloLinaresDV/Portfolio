@@ -1,4 +1,0 @@
-#README
-
-
-Hola., mundo

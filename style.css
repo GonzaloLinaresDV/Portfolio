@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 body{
-    background-color: rgb(112, 106, 97) ;    
+    background-color: #fcfdff ;    
 }
 
 header{
-    background-color:#1D1A15 ;
+    background-color:#ededf2 ;
     border-radius: 14px;   
 }
 
@@ -21,11 +21,11 @@ header img{
 
 section{
     padding-top: 11px;
-    border-bottom:5px dashed black ;
+    border-bottom:5px dashed #cfd5e1 ;
 }
 
 footer{
-    background: #1D1A15;
+    background: #fcfdff;
 }
 #MyBookmarks{
     list-style: none;
@@ -184,8 +184,8 @@ p{
 
 #carouselExampleCaptions{
     border: 5px solid rgb(56, 56, 56);
-    width: 75%;
-    height: 75%; 
+    width: 50%;
+    height: 50%; 
     margin: auto; 
     
 }
