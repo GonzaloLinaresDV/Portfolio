@@ -3,21 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
-body{
-    background-color: #fcfdff ;    
+
+:root{
+    --color-base:#001f36;
+    --color-background:#043052;
+    --color-buttons:#1c5560;
+    --color-borders:#fbffcd;
+    --color-letters:#000000;
+}
+section{
+    background-color: var(--color-background);
 }
 
 header{
-    background-color:#ededf2 ;
-    border-radius: 14px;   
+    background-color: var(--color-base);
+    height: 100px;
+}
+header nav div div a{
+
+    border-radius: 5px;
+    background-color: var(--color-buttons);
+    border: 3px solid var(--color-borders);
+    color: var(--color-letters);
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px;
+}
+a{
+    color: var(--color-letters);
 }
 
-header img{
-    size: 80px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-}
 
 section{
     padding-top: 11px;
@@ -25,15 +40,7 @@ section{
 }
 
 footer{
-    background: #fcfdff;
-}
-#MyBookmarks{
-    list-style: none;
-    margin-left: 72%;
-    display: flex;
-}
-#MyBookmarks li{
-    margin-right: 20px;
+    background: var(--color-base);
 }
 #MyBookmarks li a{
     text-decoration: none;
@@ -43,31 +50,15 @@ footer{
     text-align: justify;
     font-family: 'Bitter', serif;    
 }
-#introduction{
-    display: flex;
-    vertical-align: top;
-}
-#introduction img{
-    width: 25%;
-    border: 4px solid black;
-    margin-bottom: 15px;
-}
-#introduction div p{
-    
-    margin-left: 5px;
-    display: block;
-    font-size: large;
-    font-family: 'Bitter', serif;
-    color: #15181D;
-}
-#HighlightedProjects{
-    display: block;
+h1{
+    text-align: center;
 }
 h2{
     text-align: center;
     display: block;
     font-size: 45px;
     font-family: 'Bitter', serif;
+    color: var(--color-letters);
 }
 
 #projects{
@@ -186,6 +177,10 @@ p{
     border: 5px solid rgb(56, 56, 56);
     width: 50%;
     height: 50%; 
-    margin: auto; 
-    
+    margin: auto;     
+}
+#text-center{
+    color: var(--color-letters);
+    font-size: large;
+    font-family: 'Bitter', serif;
 }
