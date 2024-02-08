@@ -28,7 +28,7 @@ header nav div div a{
     border: 3px solid var(--color-borders);
     color: var(--color-letters);
     text-decoration: none;
-    font-size: 35px;
+    font-size: 100%;
     padding: 10px;
 }
 a{
