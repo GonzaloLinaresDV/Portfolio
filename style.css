@@ -5,17 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 
 :root{
-    --color-base:#001f36;
-    --color-background:#043052;
+    --color-base:#474F7A;
+    --color-background:#1F2544;
     --color-buttons:#1c5560;
-    --color-borders:#fbffcd;
-    --color-letters:#000000;
+    --color-borders:#FFD0EC;
+    --color-letters:#FFD0EC;
 }
 section{
     background-color: var(--color-background);
 }
 body{
-    background-color: var(--color-background);
+    background-color: var(--color-base);
 }
 header{
     background-color: var(--color-base);
@@ -39,7 +39,20 @@ nav{
 a{
     color: var(--color-letters);
 }
-
+h2{
+    text-align: center;
+    display: block;
+    font-size: 45px;
+    color: var(--color-letters);    
+}
+.titulo{
+    color: var(--color-letters);
+    text-transform:uppercase;
+}
+.highlightedProjects{
+    color: var(--color-letters);
+    text-transform:uppercase;    
+}
 
 section{
     padding-top: 11px;
@@ -59,13 +72,6 @@ footer{
 }
 h1{
     text-align: center;
-}
-h2{
-    text-align: center;
-    display: block;
-    font-size: 45px;
-    color: var(--color-letters);
-    
 }
 
 #projects{
