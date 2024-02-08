@@ -29,7 +29,6 @@ header nav div div a{
     color: var(--color-letters);
     text-decoration: none;
     font-size: 100%;
-    padding: 10px;
 }
 a{
     color: var(--color-letters);
