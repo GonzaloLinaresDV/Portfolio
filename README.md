@@ -1,3 +1,3 @@
-#Entrega del la Segudna Pre-Entrega para CoderHouse
+#Tercera Pre-entega
 
 #Hecha Por Gonzalo Daniel Linares
