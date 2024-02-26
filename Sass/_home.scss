@@ -1,0 +1,37 @@
+.caruouselHolder{
+    h2{
+        color: $color-letters;
+        text-transform:uppercase;   
+    }
+    #carouselExampleCaptions
+    {
+        border: 5px solid $color-borders;
+        background-color: $color-base;
+        width: 50%;
+        height: 50%; 
+        margin: auto;     
+        padding: 10px;    
+    }
+}
+#introduction{
+    div{
+        h1{
+            text-align: center;
+        }
+        p{
+            color:#67768D
+        }
+    }
+}
+.titulo{
+    color: $color-letters;
+    text-transform: uppercase;
+ 
+}
+
+h2{
+    text-align: center;
+    display: block;
+    font-size: 45px;
+    color: $color-letters;    
+}
