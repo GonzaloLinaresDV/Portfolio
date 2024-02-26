@@ -1,0 +1,77 @@
+html{
+    background-color: $color-background;
+}
+body{
+    background-color: $color-base;
+}
+section{
+    background-color: $color-background;
+    padding-top: 11px;
+    border-bottom:5px dashed #cfd5e1 ;
+}
+header{
+    background-color: $color-base;
+    height: 50px;
+    nav{
+        text-align: center;
+        div{
+            button{
+                img{
+                    width: 25%;
+                }
+            }
+            ul{
+                li{
+                    a{
+                        border-radius: 5px;
+                        background-color: var(--color-buttons);
+                        color:$color-letters;
+                        text-decoration: none;
+                        font-size: 100%;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+#MyBookmarks{
+    li{
+        a{
+            text-decoration: none;
+            color: $color-letters;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: justify;
+            font-family: 'Bitter', serif; 
+        }
+    }
+}
+#dropdown{
+    background-color: $color-background;
+}
+footer{
+    background: $color-background;
+    nav{
+        #socialmedia{
+            li{
+                display: block;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: grey;
+                font-weight: bold;
+                font-family: 'Bitter', serif;    
+                font-size: 20px;
+            }
+            img{
+                width: 15px;
+            }
+        }
+    }
+    #rights{
+        text-align: center;
+        color: $color-letters;
+    }
+}
